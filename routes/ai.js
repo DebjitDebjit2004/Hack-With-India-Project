@@ -6,7 +6,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 // Get the model
-const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 // Start a chat
 const chat = model.startChat({
@@ -52,7 +52,7 @@ router.post('/chat', async (req, res) => {
 
         try {
             // Format the prompt
-            const prompt = `You are a ${animal}. Respond to the following message in character. Keep responses concise and engaging. If the message contains multiple questions or points, separate your responses with the | character.`;
+            const prompt = `You are a ${animal}. Respond to the following message in character. Keep responses concise and engaging. If the message contains multiple questions or points, separate your responses with the | character. and have a give information about yourself and some fun facts`;
 
             // Send message to Gemini API
             const result = await chat.sendMessage(prompt + "\n\nUser: " + message);
