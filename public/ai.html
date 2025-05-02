@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Animal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="animalName">Chat with Animal</h1>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages">
+                    <!-- Messages will be added here -->
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="user-input" placeholder="Type your message..." />
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+            <a href="/" class="back-button">Back to Selection</a>
+        </main>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const animal = urlParams.get('animal');
+        let chatHistory = [];
+
+        if (animal) {
+            const formattedAnimal = animal.charAt(0).toUpperCase() + animal.slice(1);
+            document.title = `Chat with ${formattedAnimal}`;
+            document.getElementById('animalName').textContent = `Chat with ${formattedAnimal}`;
+            
+            // Initial greeting
+            const initialMessage = `Hello! I'm a ${formattedAnimal}. How can I help you learn about my species?`;
+            addMessage('animal', initialMessage);
+        } else {
+            window.location.href = '/';
+        }
+
+        function addMessage(sender, message) {
+            const chatMessages = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.textContent = message;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        async function sendMessage() {
+            const userInput = document.getElementById('user-input');
+            const message = userInput.value.trim();
+            const sendButton = document.getElementById('send-button');
+            
+            if (message) {
+                // Disable input and button while processing
+                userInput.disabled = true;
+                sendButton.disabled = true;
+                
+                // Add user message to chat
+                addMessage('user', message);
+                userInput.value = '';
+
+                try {
+                    console.log('Sending message to server:', { animal, message });
+                    const response = await fetch('/api/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            animal: animal,
+                            message: message,
+                            history: chatHistory
+                        })
+                    });
+
+                    const data = await response.json();
+                    console.log('Server response:', data);
+                    
+                    if (!response.ok) {
+                        throw new Error(data.details || data.error || 'Unknown error');
+                    }
+                    
+                    if (data.error) {
+                        throw new Error(data.details || data.error);
+                    }
+
+                    addMessage('animal', data.response);
+                    chatHistory.push({ role: 'user', content: message });
+                    chatHistory.push({ role: 'assistant', content: data.response });
+                } catch (error) {
+                    console.error('Error in chat:', error);
+                    addMessage('system', `Error: ${error.message}`);
+                } finally {
+                    // Re-enable input and button
+                    userInput.disabled = false;
+                    sendButton.disabled = false;
+                    userInput.focus();
+                }
+            }
+        }
+
+        // Event listeners
+        document.getElementById('send-button').addEventListener('click', sendMessage);
+        document.getElementById('user-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html> 
