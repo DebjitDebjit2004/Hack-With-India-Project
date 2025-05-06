@@ -1,0 +1,292 @@
+[
+    {
+      "id": "AP",
+      "name": "Andhra Pradesh",
+      "sanctuary": "Sri Venkateswara National Park",
+      "flora": "Red Sanders",
+      "fauna": "Indian Leopard",
+      "coordinates": [13.65, 79.42]
+    },
+    {
+      "id": "AR",
+      "name": "Arunachal Pradesh",
+      "sanctuary": "Namdapha National Park",
+      "flora": "Hollong",
+      "fauna": "Clouded Leopard",
+      "coordinates": [27.5, 96.5]
+    },
+    {
+      "id": "AS",
+      "name": "Assam",
+      "sanctuary": "Kaziranga National Park",
+      "flora": "Bamboo",
+      "fauna": "One-Horned Rhino",
+      "coordinates": [26.6, 93.1]
+    },
+    {
+      "id": "BR",
+      "name": "Bihar",
+      "sanctuary": "Valmiki National Park",
+      "flora": "Sal Tree",
+      "fauna": "Royal Bengal Tiger",
+      "coordinates": [27.3, 84.2]
+    },
+    {
+      "id": "CG",
+      "name": "Chhattisgarh",
+      "sanctuary": "Indravati National Park",
+      "flora": "Teak",
+      "fauna": "Wild Buffalo",
+      "coordinates": [19.5, 81.8]
+    },
+    {
+      "id": "GA",
+      "name": "Goa",
+      "sanctuary": "Bhagwan Mahavir Wildlife Sanctuary",
+      "flora": "Matti Tree",
+      "fauna": "Gaur",
+      "coordinates": [15.4, 74.2]
+    },
+    {
+      "id": "GJ",
+      "name": "Gujarat",
+      "sanctuary": "Gir National Park",
+      "flora": "Babool",
+      "fauna": "Asiatic Lion",
+      "coordinates": [21.1, 70.8]
+    },
+    {
+      "id": "HR",
+      "name": "Haryana",
+      "sanctuary": "Kalesar National Park",
+      "flora": "Sal",
+      "fauna": "Leopard",
+      "coordinates": [30.5, 77.3]
+    },
+    {
+      "id": "HP",
+      "name": "Himachal Pradesh",
+      "sanctuary": "Great Himalayan National Park",
+      "flora": "Deodar",
+      "fauna": "Himalayan Tahr",
+      "coordinates": [31.6, 77.1]
+    },
+    {
+      "id": "JH",
+      "name": "Jharkhand",
+      "sanctuary": "Betla National Park",
+      "flora": "Sal Tree",
+      "fauna": "Elephant",
+      "coordinates": [23.8354, 84.1952]
+    },
+    {
+      "id": "KA",
+      "name": "Karnataka",
+      "sanctuary": "Bandipur National Park",
+      "flora": "Sandalwood",
+      "fauna": "Tiger",
+      "coordinates": [11.7, 76.6]
+    },
+    {
+      "id": "KL",
+      "name": "Kerala",
+      "sanctuary": "Periyar Wildlife Sanctuary",
+      "flora": "Teak",
+      "fauna": "Elephant",
+      "coordinates": [9.5, 77.2]
+    },
+    {
+      "id": "MP",
+      "name": "Madhya Pradesh",
+      "sanctuary": "Kanha National Park",
+      "flora": "Sal Tree",
+      "fauna": "Bengal Tiger",
+      "coordinates": [22.3344, 80.6115]
+    },
+    {
+      "id": "MH",
+      "name": "Maharashtra",
+      "sanctuary": "Tadoba Andhari",
+      "flora": "Teak",
+      "fauna": "Tiger",
+      "coordinates": [20.231, 79.345]
+    },
+    {
+      "id": "MN",
+      "name": "Manipur",
+      "sanctuary": "Keibul Lamjao National Park",
+      "flora": "Floating Phumdi",
+      "fauna": "Sangai Deer",
+      "coordinates": [24.5, 93.9]
+    },
+    {
+      "id": "ML",
+      "name": "Meghalaya",
+      "sanctuary": "Nokrek National Park",
+      "flora": "Pitcher Plant",
+      "fauna": "Red Panda",
+      "coordinates": [25.5, 90.6]
+    },
+    {
+      "id": "MZ",
+      "name": "Mizoram",
+      "sanctuary": "Phawngpui National Park",
+      "flora": "Bamboo",
+      "fauna": "Clouded Leopard",
+      "coordinates": [22.6, 93.0]
+    },
+    {
+      "id": "NL",
+      "name": "Nagaland",
+      "sanctuary": "Intanki Wildlife Sanctuary",
+      "flora": "Oak",
+      "fauna": "Hoolock Gibbon",
+      "coordinates": [26.2, 94.5]
+    },
+    {
+      "id": "OR",
+      "name": "Odisha",
+      "sanctuary": "Simlipal National Park",
+      "flora": "Sal Tree",
+      "fauna": "Tiger",
+      "coordinates": [21.9, 86.3]
+    },
+    {
+      "id": "PB",
+      "name": "Punjab",
+      "sanctuary": "Harike Wetland",
+      "flora": "Water Hyacinth",
+      "fauna": "Migratory Birds",
+      "coordinates": [31.1, 75.1]
+    },
+    {
+      "id": "RJ",
+      "name": "Rajasthan",
+      "sanctuary": "Ranthambore",
+      "flora": "Dhok Tree",
+      "fauna": "Indian Leopard",
+      "coordinates": [26.0173, 76.5026]
+    },
+    {
+      "id": "SK",
+      "name": "Sikkim",
+      "sanctuary": "Khangchendzonga National Park",
+      "flora": "Rhododendron",
+      "fauna": "Red Panda",
+      "coordinates": [27.6, 88.5]
+    },
+    {
+      "id": "TN",
+      "name": "Tamil Nadu",
+      "sanctuary": "Mudumalai National Park",
+      "flora": "Teak",
+      "fauna": "Indian Elephant",
+      "coordinates": [11.6, 76.5]
+    },
+    {
+      "id": "TG",
+      "name": "Telangana",
+      "sanctuary": "Kawal Wildlife Sanctuary",
+      "flora": "Teak",
+      "fauna": "Tiger",
+      "coordinates": [19.0, 78.9]
+    },
+    {
+      "id": "TR",
+      "name": "Tripura",
+      "sanctuary": "Sepahijala Wildlife Sanctuary",
+      "flora": "Bamboo",
+      "fauna": "Phayre's Langur",
+      "coordinates": [23.5, 91.3]
+    },
+    {
+      "id": "UK",
+      "name": "Uttarakhand",
+      "sanctuary": "Jim Corbett National Park",
+      "flora": "Brahma Kamal",
+      "fauna": "Snow Leopard",
+      "coordinates": [29.53, 78.774]
+    },
+    {
+      "id": "UP",
+      "name": "Uttar Pradesh",
+      "sanctuary": "Dudhwa National Park",
+      "flora": "Sal",
+      "fauna": "Swamp Deer",
+      "coordinates": [28.5, 80.5]
+    },
+    {
+      "id": "WB",
+      "name": "West Bengal",
+      "sanctuary": "Sundarbans National Park",
+      "flora": "Mangrove",
+      "fauna": "Royal Bengal Tiger",
+      "coordinates": [21.9, 88.9]
+    },
+  
+    {
+      "id": "DL",
+      "name": "Delhi",
+      "sanctuary": "Asola Bhatti Wildlife Sanctuary",
+      "flora": "Acacia",
+      "fauna": "Nilgai",
+      "coordinates": [28.5, 77.2]
+    },
+    {
+      "id": "JK",
+      "name": "Jammu and Kashmir",
+      "sanctuary": "Hemis National Park",
+      "flora": "Willow",
+      "fauna": "Snow Leopard",
+      "coordinates": [34.0, 76.5]
+    },
+    {
+      "id": "LA",
+      "name": "Ladakh",
+      "sanctuary": "Changthang Wildlife Sanctuary",
+      "flora": "Alpine Shrubs",
+      "fauna": "Kiang",
+      "coordinates": [33.7, 78.2]
+    },
+    {
+      "id": "AN",
+      "name": "Andaman and Nicobar Islands",
+      "sanctuary": "Mahatma Gandhi Marine National Park",
+      "flora": "Mangrove",
+      "fauna": "Dugong",
+      "coordinates": [11.7, 92.7]
+    },
+    {
+      "id": "CH",
+      "name": "Chandigarh",
+      "sanctuary": "City Bird Sanctuary",
+      "flora": "Flowering Trees",
+      "fauna": "Birds",
+      "coordinates": [30.7, 76.8]
+    },
+    {
+      "id": "DNDD",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "sanctuary": "Vasona Lion Safari",
+      "flora": "Dry Deciduous Trees",
+      "fauna": "Lion",
+      "coordinates": [20.3, 73.0]
+    },
+    {
+      "id": "LD",
+      "name": "Lakshadweep",
+      "sanctuary": "Marine Wildlife",
+      "flora": "Coconut Palm",
+      "fauna": "Coral Reef Species",
+      "coordinates": [10.5, 72.0]
+    },
+    {
+      "id": "PY",
+      "name": "Puducherry",
+      "sanctuary": "Ousteri Lake Bird Sanctuary",
+      "flora": "Aquatic Plants",
+      "fauna": "Migratory Birds",
+      "coordinates": [11.9, 79.8]
+    }
+  ]
+  
