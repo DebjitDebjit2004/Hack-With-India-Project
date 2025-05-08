@@ -1,0 +1,555 @@
+{
+  "Andhra Pradesh": {
+    "sanctuary": "Sri Venkateswara National Park",
+    "flora": {
+      "primary": "Red Sanders",
+      "other": ["Teak", "Bamboo", "Terminalia", "Anogeissus"],
+      "conservation_status": "Endangered",
+      "description": "Home to the rare and valuable Red Sanders tree, known for its medicinal properties and high-quality wood."
+    },
+    "fauna": {
+      "primary": "Indian Leopard",
+      "other": ["Golden Gecko", "Slender Loris", "Mouse Deer", "Indian Giant Squirrel"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with over 100 species of birds and numerous reptiles. The park is particularly known for its population of Indian Leopards."
+    },
+    "coordinates": [13.65, 79.42],
+    "area": "353.62 sq km",
+    "established": 1989,
+    "interesting_facts": "The park is part of the Eastern Ghats and features stunning waterfalls and diverse terrain."
+  },
+  "Karnataka": {
+    "sanctuary": "Bandipur National Park",
+    "flora": {
+      "primary": "Teak",
+      "other": ["Rosewood", "Sandalwood", "Bamboo"],
+      "conservation_status": "Protected",
+      "description": "A mix of deciduous forests and grasslands, known for its rich flora diversity."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Indian Elephant", "Leopard", "Sloth Bear", "Chital"],
+      "conservation_status": "Endangered",
+      "description": "One of India's primary tiger reserves, with a thriving elephant population."
+    },
+    "coordinates": [11.654, 76.627],
+    "area": "874 sq km",
+    "established": 1974,
+    "interesting_facts": "Bandipur is part of the Nilgiri Biosphere Reserve, forming a corridor for wildlife."
+  },
+  "Maharashtra": {
+    "sanctuary": "Tadoba Andhari Tiger Reserve",
+    "flora": {
+      "primary": "Teak",
+      "other": ["Sal", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Indian Bison", "Leopard", "Wild Boar", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "One of the oldest national parks in India, known for its high density of tigers."
+    },
+    "coordinates": [20.25, 79.42],
+    "area": "625.4 sq km",
+    "established": 1955,
+    "interesting_facts": "The park is home to the famous 'Tadoba Tiger' and has a rich cultural heritage."
+  },
+  "Uttarakhand": {
+    "sanctuary": "Jim Corbett National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Pine", "Bamboo"],
+      "conservation_status": "Protected",
+      "description": "Diverse vegetation ranging from grasslands to dense forests, supporting a variety of wildlife."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Asian Elephant", "Leopard", "Himalayan Black Bear"],
+      "conservation_status": "Endangered",
+      "description": "The first national park in India, known for its rich biodiversity and scenic landscapes."
+    },
+    "coordinates": [29.55, 78.68],
+    "area": "520.8 sq km",
+    "established": 1936,
+    "interesting_facts": "The park is named after the famous hunter-turned-conservationist Jim Corbett."
+  },
+  "Rajasthan": {
+    "sanctuary": "Ranthambore National Park",
+    "flora": {
+      "primary": "Dhok",
+      "other": ["Babul", "Ber", "Khejri"],
+      "conservation_status": "Protected",
+      "description": "Dry deciduous forests with a mix of scrub and grasslands, providing habitat for various species."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Leopard", "Sloth Bear", "Sambar", "Chital"],
+      "conservation_status": "Endangered",
+      "description": "Famous for its tiger population and historical ruins, including the Ranthambore Fort."
+    },
+    "coordinates": [26.02, 76.65],
+    "area": "392 sq km",
+    "established": 1955,
+    "interesting_facts": "Ranthambore is one of the largest national parks in northern India and a UNESCO World Heritage Site."
+  },
+  "Gujarat": {
+    "sanctuary": "Gir National Park",
+    "flora": {
+      "primary": "Teak",
+      "other": ["Bamboo", "Acacia", "Commiphora"],
+      "conservation_status": "Protected",
+      "description": "Dry deciduous forests with a mix of scrub and grasslands, providing habitat for various species."
+    },
+    "fauna": {
+      "primary": "Asiatic Lion",
+      "other": ["Leopard", "Sambar", "Chital"],
+      "conservation_status": "Endangered",
+      "description": "The only natural habitat of the Asiatic Lion, with a thriving population."
+    },
+    "coordinates": [21.2, 70.4],
+    "area": "1412 sq km",
+    "established": 1965,
+    "interesting_facts": "Gir is home to the largest population of Asiatic Lions in the world."
+  },
+  "Himachal Pradesh": {
+    "sanctuary": "Great Himalayan National Park",
+    "flora": {
+      "primary": "Deodar Cedar",
+      "other": ["Fir", "Spruce", "Rhododendron"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of alpine and sub-alpine flora, including rare medicinal plants."
+    },
+    "fauna": {
+      "primary": "Snow Leopard",
+      "other": ["Himalayan Black Bear", "Musk Deer", "Tahr"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [31.5, 77.5],
+    "area": "1,171 sq km",
+    "established": 1984,
+    "interesting_facts": "The park is known for its stunning landscapes and is a hotspot for trekking and adventure tourism."
+  },
+  "Kerala": {
+    "sanctuary": "Periyar National Park",
+    "flora": {
+      "primary": "Teak",
+      "other": ["Rosewood", "Bamboo", "Cardamom"],
+      "conservation_status": "Protected",
+      "description": "Dense evergreen and deciduous forests, rich in biodiversity and home to many endemic species."
+    },
+    "fauna": {
+      "primary": "Indian Elephant",
+      "other": ["Nilgiri Tahr", "Malabar Grey Hornbill", "King Cobra"],
+      "conservation_status": "Vulnerable",
+      "description": "Famous for its elephant population and scenic lake, attracting nature lovers and wildlife enthusiasts."
+    },
+    "coordinates": [9.5, 77.1],
+    "area": "925 sq km",
+    "established": 1950,
+    "interesting_facts": "Periyar is one of the oldest wildlife reserves in India and a major ecotourism destination."
+  },
+  "Madhya Pradesh": {
+    "sanctuary": "Kanha National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of grasslands and wetlands, supporting a rich variety of flora."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Indian Bison", "Barasingha", "Leopard"],
+      "conservation_status": "Endangered",
+      "description": "One of the largest national parks in India, known for its tiger population and unique swamp deer."
+    },
+    "coordinates": [22.3, 80.4],
+    "area": "940 sq km",
+    "established": 1955,
+    "interesting_facts": "Kanha inspired Rudyard Kipling's 'The Jungle Book' and is famous for its scenic beauty."
+  },
+  "Tamil Nadu": {
+    "sanctuary": "Mudumalai National Park",
+    "flora": {
+      "primary": "Teak",
+      "other": ["Rosewood", "Bamboo", "Sal"],
+      "conservation_status": "Protected",
+      "description": "A mix of deciduous forests and grasslands, known for its rich flora diversity."
+    },
+    "fauna": {
+      "primary": "Indian Elephant",
+      "other": ["Bengal Tiger", "Leopard", "Sloth Bear"],
+      "conservation_status": "Endangered",
+      "description": "Part of the Nilgiri Biosphere Reserve, known for its diverse wildlife and scenic landscapes."
+    },
+    "coordinates": [11.6, 76.6],
+    "area": "321 sq km",
+    "established": 1940,
+    "interesting_facts": "Mudumalai is one of the oldest wildlife sanctuaries in India and a UNESCO World Heritage Site."
+  },
+  "Uttar Pradesh": {
+    "sanctuary": "Dudhwa National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "A mix of grasslands and dense forests, home to a variety of flora and fauna."
+    },
+    "fauna": {
+      "primary": "Swamp Deer",
+      "other": ["Bengal Tiger", "Indian Rhino", "Leopard"],
+      "conservation_status": "Endangered",
+      "description": "Known for its swamp deer population and rich biodiversity, including many migratory birds."
+    },
+    "coordinates": [28.6, 80.5],
+    "area": "490 sq km",
+    "established": 1958,
+    "interesting_facts": "Dudhwa is part of the Terai ecosystem and is known for its unique wildlife."
+  },
+  "Punjab": {
+    "sanctuary": "Harike Wetland",
+    "flora": {
+      "primary": "Reed",
+      "other": ["Water Hyacinth", "Lotus"],
+      "conservation_status": "Protected",
+      "description": "A unique wetland ecosystem with a variety of aquatic plants and migratory birds."
+    },
+    "fauna": {
+      "primary": "Siberian Crane",
+      "other": ["Black-necked Stork", "Pallas's Fish Eagle"],
+      "conservation_status": "Vulnerable",
+      "description": "A crucial stopover for migratory birds, especially during the winter months."
+    },
+    "coordinates": [31.2, 75.3],
+    "area": "88.64 sq km",
+    "established": 1981,
+
+    "interesting_facts": "Harike is the largest wetland in northern India and a Ramsar site, recognized for its ecological importance."
+  },
+  "Odisha": {
+    "sanctuary": "Simlipal National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Royal Bengal Tiger",
+      "other": ["Indian Elephant", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "Known for its tiger population and rich biodiversity, including many endemic species."
+    },
+    "coordinates": [21.5, 86.3],
+    "area": "2750 sq km",
+    "established": 1980,
+    "interesting_facts": "Simlipal is part of the Simlipal Biosphere Reserve and is known for its scenic beauty and waterfalls."
+  },
+  "West Bengal": {
+    "sanctuary": "Sundarbans National Park",
+    "flora": {
+      "primary": "Sundari",
+      "other": ["Mangrove", "Coconut", "Palm"],
+      "conservation_status": "Protected",
+      "description": "The largest mangrove forest in the world, home to unique flora adapted to saline conditions."
+    },
+    "fauna": {
+      "primary": "Royal Bengal Tiger",
+      "other": ["Saltwater Crocodile", "Ganges River Dolphin"],
+      "conservation_status": "Endangered",
+      "description": "Famous for its tiger population and unique ecosystem, a UNESCO World Heritage Site."
+    },
+    "coordinates": [22.1, 88.5],
+    "area": "1,330 sq km",
+    "established": 1984,
+    "interesting_facts": "The Sundarbans is a UNESCO World Heritage Site and is known for its unique biodiversity."
+  },
+  "Assam": {
+    "sanctuary": "Kaziranga National Park",
+    "flora": {
+      "primary": "Elephant Grass",
+      "other": ["Sal", "Teak", "Bamboo"],
+      "conservation_status": "Protected",
+      "description": "A mix of grasslands and forests, known for its rich biodiversity and unique ecosystem."
+    },
+    "fauna": {
+      "primary": "Indian One-Horned Rhinoceros",
+      "other": ["Bengal Tiger", "Asian Elephant", "Wild Water Buffalo"],
+      "conservation_status": "Vulnerable",
+      "description": "Famous for its population of the Indian one-horned rhinoceros, a UNESCO World Heritage Site."
+    },
+    "coordinates": [26.5, 93.4],
+    "area": "430 sq km",
+    "established": 1905,
+    "interesting_facts": "Kaziranga is a UNESCO World Heritage Site and is known for its successful conservation efforts."
+  },
+  "Bihar": {
+    "sanctuary": "Valmiki National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Royal Bengal Tiger",
+      "other": ["Indian Elephant", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "Known for its tiger population and rich biodiversity, including many endemic species."
+    },
+    "coordinates": [27.1, 84.5],
+    "area": "335 sq km",
+    "established": 1990,
+    "interesting_facts": "Valmiki is the only national park in Bihar and is known for its scenic beauty and diverse wildlife."
+  },
+  "Jharkhand": {
+    "sanctuary": "Betla National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Royal Bengal Tiger",
+      "other": ["Indian Elephant", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "Known for its tiger population and rich biodiversity, including many endemic species."
+    },
+    "coordinates": [23.5, 84.5],
+    "area": "226 sq km",
+    "established": 1986,
+    "interesting_facts": "Betla is known for its scenic beauty and is a popular destination for wildlife enthusiasts."
+  },
+  "Chhattisgarh": {
+    "sanctuary": "Indravati National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Indian Bison",
+      "other": ["Royal Bengal Tiger", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "Known for its rich biodiversity and unique ecosystem, including many endemic species."
+    },
+    "coordinates": [18.8, 81.5],
+    "area": "1,258 sq km",
+    "established": 1981,
+    "interesting_facts": "Indravati is known for its scenic beauty and is a popular destination for wildlife enthusiasts."
+  },
+  "Telangana": {
+    "sanctuary": "Kawal Tiger Reserve",
+    "flora": {
+      "primary": "Teak",
+      "other": ["Sal", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Indian Bison", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "Known for its tiger population and rich biodiversity, including many endemic species."
+    },
+    "coordinates": [19.5, 78.5],
+    "area": "2,000 sq km",
+    "established": 2012,
+    "interesting_facts": "Kawal is one of the largest tiger reserves in India and is known for its scenic beauty."
+  },
+  "Arunachal Pradesh": {
+    "sanctuary": "Namdapha National Park",
+    "flora": {
+      "primary": "Evergreen Forests",
+      "other": ["Bamboo", "Rhododendron", "Orchids"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Red Panda",
+      "other": ["Snow Leopard", "Himalayan Black Bear", "Musk Deer"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [27.5, 95.5],
+    "area": "1,985 sq km",
+    "established": 1983,
+    "interesting_facts": "Namdapha is the largest national park in India and is known for its stunning landscapes and rich biodiversity."
+  },
+  "Nagaland": {
+    "sanctuary": "Intanki National Park",
+    "flora": {
+      "primary": "Sal",
+      "other": ["Teak", "Bamboo", "Mahua"],
+      "conservation_status": "Protected",
+      "description": "Dense forests with a mix of deciduous and evergreen trees, providing habitat for diverse wildlife."
+    },
+    "fauna": {
+      "primary": "Bengal Tiger",
+      "other": ["Indian Bison", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "Known for its rich biodiversity and unique ecosystem, including many endemic species."
+    },
+    "coordinates": [26.2, 93.7],
+    "area": "202 sq km",
+    "established": 1993,
+    "interesting_facts": "Intanki is known for its scenic beauty and is a popular destination for wildlife enthusiasts."
+  },
+  "Manipur": {
+    "sanctuary": "Keibul Lamjao National Park",
+    "flora": {
+      "primary": "Floating Grasslands",
+      "other": ["Reed", "Lotus"],
+      "conservation_status": "Protected",
+      "description": "Unique floating grasslands and wetlands, home to many endemic species."
+    },
+    "fauna": {
+      "primary": "Sangai (Brow-antlered Deer)",
+      "other": ["Bengal Tiger", "Leopard", "Sambar"],
+      "conservation_status": "Endangered",
+      "description": "The only floating national park in the world, known for its unique ecosystem."
+    },
+    "coordinates": [24.5, 93.9],
+    "area": "40 sq km",
+    "established": 1954,
+    "interesting_facts": "Keibul Lamjao is a UNESCO World Heritage Site and is known for its unique biodiversity."
+  },
+  "Tripura": {
+    "sanctuary": "Sepahijala Wildlife Sanctuary",
+    "flora": {
+      "primary": "Evergreen Forests",
+      "other": ["Bamboo", "Teak", "Sal"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Clouded Leopard",
+      "other": ["Himalayan Black Bear", "Musk Deer", "Barking Deer"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [23.5, 91.3],
+    "area": "18.5 sq km",
+    "established": 1987,
+    "interesting_facts": "Sepahijala is known for its scenic beauty and is a popular destination for wildlife enthusiasts."
+  },
+  "Sikkim": {
+    "sanctuary": "Khangchendzonga National Park",
+    "flora": {
+      "primary": "Rhododendron",
+      "other": ["Bamboo", "Fir", "Spruce"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Red Panda",
+      "other": ["Snow Leopard", "Himalayan Black Bear", "Musk Deer"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [27.3, 88.6],
+    "area": "1,784 sq km",
+    "established": 2010,
+    "interesting_facts": "Khangchendzonga is the third highest mountain in the world and is known for its stunning landscapes."
+  },
+  "Goa": {
+    "sanctuary": "Bhagwan Mahavir Wildlife Sanctuary",
+    "flora": {
+      "primary": "Evergreen Forests",
+      "other": ["Bamboo", "Teak", "Sal"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Indian Bison",
+      "other": ["Leopard", "Sambar", "Sloth Bear"],
+      "conservation_status": "Endangered",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [15.3, 74.1],
+    "area": "240 sq km",
+    "established": 1969,
+    "interesting_facts": "Bhagwan Mahavir is known for its scenic beauty and is a popular destination for wildlife enthusiasts."
+  },
+  "Haryana": {
+    "sanctuary": "Sultanpur National Park",
+    "flora": {
+      "primary": "Grasslands",
+      "other": ["Reed", "Lotus"],
+      "conservation_status": "Protected",
+      "description": "A unique wetland ecosystem with a variety of aquatic plants and migratory birds."
+    },
+    "fauna": {
+      "primary": "Siberian Crane",
+      "other": ["Black-necked Stork", "Pallas's Fish Eagle"],
+      "conservation_status": "Vulnerable",
+      "description": "A crucial stopover for migratory birds, especially during the winter months."
+    },
+    "coordinates": [28.4, 76.8],
+    "area": "1.42 sq km",
+    "established": 1989,
+    "interesting_facts": "Sultanpur is a popular destination for birdwatching and is known for its rich biodiversity."
+  },
+  "Delhi": {
+    "sanctuary": "Asola Bhatti Wildlife Sanctuary",
+    "flora": {
+      "primary": "Dry Deciduous Forests",
+      "other": ["Bamboo", "Teak", "Sal"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Indian Fox",
+      "other": ["Leopard", "Sambar", "Sloth Bear"],
+      "conservation_status": "Endangered",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [28.5, 77.2],
+    "area": "32.71 sq km",
+    "established": 1986,
+    "interesting_facts": "Asola Bhatti is known for its scenic beauty and is a popular destination for wildlife enthusiasts."
+  },
+  "Jammu and Kashmir": {
+    "sanctuary": "Hemis National Park",
+    "flora": {
+      "primary": "Alpine Meadows",
+      "other": ["Willow", "Juniper", "Birch"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Snow Leopard",
+      "other": ["Himalayan Black Bear", "Musk Deer", "Tahr"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [33.5, 77.5],
+    "area": "4,400 sq km",
+    "established": 1981,
+    "interesting_facts": "Hemis is the largest national park in India and is known for its stunning landscapes and rich biodiversity."
+  },
+  "Ladakh": {
+    "sanctuary": "Hemis National Park",
+    "flora": {
+      "primary": "Alpine Meadows",
+      "other": ["Willow", "Juniper", "Birch"],
+      "conservation_status": "Protected",
+      "description": "Home to a variety of flora, including many endemic species and medicinal plants."
+    },
+    "fauna": {
+      "primary": "Snow Leopard",
+      "other": ["Himalayan Black Bear", "Musk Deer", "Tahr"],
+      "conservation_status": "Vulnerable",
+      "description": "Rich biodiversity with many endemic species, making it a UNESCO World Heritage Site."
+    },
+    "coordinates": [33.5, 77.5],
+    "area": "4,400 sq km",
+    "established": 1981,
+    "interesting_facts": "Hemis is the largest national park in India and is known for its stunning landscapes and rich biodiversity."
+  }
+}
+

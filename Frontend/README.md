@@ -1,12 +1,27 @@
-# React + Vite
+# Hack-With-India-Project: Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is the frontend of the **Hack-With-India Wildlife Conservation and Exploration Project**. The project aims to raise awareness about India's rich biodiversity and promote wildlife conservation through an interactive platform.
 
-Currently, two official plugins are available:
+## Features
+- **Interactive 3D Models**: Explore animal models in a 3D environment using `@react-three/fiber` and `three.js`.
+- **State-wise Wildlife Information**: Detailed information about sanctuaries, flora, and fauna for each Indian state.
+- **Dynamic Grid Scene**: A visually appealing grid-based scene to showcase wildlife models.
+- **Responsive Design**: Fully responsive UI for seamless experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React**: For building the user interface.
+- **@react-three/fiber**: For rendering 3D scenes.
+- **@react-three/drei**: For additional 3D utilities like grids and controls.
+- **Three.js**: For creating and managing 3D objects.
+- **CSS/SCSS**: For styling the application.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/hack-with-india-project.git
+   cd hack-with-india-project/Frontend
+   ```
+2. Install dependencies:
+   ```bash
+npm install
