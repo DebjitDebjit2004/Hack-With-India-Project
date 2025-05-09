@@ -96,7 +96,7 @@ const Home = () => {
         <div className="mt-4">
           <button
             className="w-full bg-green-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-green-700 transition"
-            onClick={() => navigate(`/national-park-info/${lockedState || hoveredState}`)}
+            onClick={() => navigate(`/national-park-info/Assam`)} // Redirect to NationalParkInfo for Assam
           >
             Explore More About This National Park
           </button>
