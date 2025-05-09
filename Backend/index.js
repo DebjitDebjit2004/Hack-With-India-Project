@@ -1,12 +1,14 @@
 require('dotenv').config()
 const express = require('express')
 const app= express()
+
 const animalRoutes = require('./routes/animal.routes')
+const userRoutes = require('./routes/user.route')
+const chatRoutes = require('./routes/chatbot.routes')
 
 const PORT = process.env.PORT || 3000
 const cors = require('cors')
 
-const userRoutes = require('./routes/user.route')
 const cookieParser = require('cookie-parser');
 
 
@@ -22,6 +24,7 @@ app.use(cors({
 
 app.use('/animal',animalRoutes)
 app.use('/user',userRoutes)
+app.use('/chat', chatRoutes)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)

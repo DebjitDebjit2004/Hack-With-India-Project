@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { Mic, Send, MessageCircle } from 'lucide-react';
 import AnimalScene from '../Components/AnimalScene';
+import axios from 'axios';
 
 const animalDescriptions = {
   'White Tiger': 'The white tiger is a rare pigmentation variant of the Bengal tiger, native to the Indian subcontinent. These majestic animals have white fur with black stripes and piercing blue eyes.',
-  Elephant: 'Elephants are the largest land animals, known for their intelligence and strong social bonds. They use their trunk for communication and handling objects.',
-  Rhino: 'Rhinos are large herbivorous mammals known for their thick skin and iconic horns. They are found in Africa and Asia.',
+  'Elephant': 'Elephants are the largest land animals, known for their intelligence and strong social bonds. They use their trunk for communication and handling objects.',
+  'Rhino': 'Rhinos are large herbivorous mammals known for their thick skin and iconic horns. They are found in Africa and Asia.',
 };
 
 const WildTalk = () => {
@@ -15,14 +16,31 @@ const WildTalk = () => {
   const [currentAnimal, setCurrentAnimal] = useState(0);
 
   const handleSpeak = (text) => {
+    if (!text) return; // Ensure text is not empty
     const utterance = new SpeechSynthesisUtterance(text);
     speechSynthesis.speak(utterance);
   };
 
-  const handleAsk = () => {
+  const handleAsk = async () => {
     const animalName = Object.keys(animalDescriptions)[currentAnimal];
-    setResponse(animalDescriptions[animalName] || 'I am not sure about that.');
-    handleSpeak(animalDescriptions[animalName]);
+    console.log(animalName);
+    const data = {
+      animal: animalName,
+      message: query,
+    };
+
+    try {
+      const res = await axios.post('http://localhost:3000/chat/chat-animal', data);
+      const ai_res = res.data.message;
+
+      // Set the response and trigger speech
+      setResponse(ai_res || 'I am not sure about that.');
+      handleSpeak(ai_res || 'I am not sure about that.');
+    } catch (error) {
+      console.error('Error:', error);
+      setResponse('Sorry, I could not fetch the information.');
+      handleSpeak('Sorry, I could not fetch the information.');
+    }
   };
 
   return (
