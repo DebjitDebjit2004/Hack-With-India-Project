@@ -1,0 +1,24 @@
+{
+  "name": "Satyam",
+  "description": "A lovely kutta",
+  "image": "ipfs://QmcHHLzrr3vLsN9EeA2quxNXm11ABmYta1YBWxTYuyuZxn",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "45.112,78.325"
+    },
+    {
+      "trait_type": "Temperature",
+      "value": "40°C"
+    },
+    {
+      "trait_type": "Movement Status",
+      "value": "Stationary"
+    },
+    {
+      "display_type": "date",
+      "trait_type": "Timestamp",
+      "value": 1746781696915
+    }
+  ]
+}
