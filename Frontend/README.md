@@ -24,4 +24,35 @@ This is the frontend of the **Hack-With-India Wildlife Conservation and Explorat
    ```
 2. Install dependencies:
    ```bash
-npm install
+   npm install
+   ```
+
+## Connecting to Backend
+The frontend communicates with the backend to fetch AI-generated responses for user queries. Ensure the backend is running locally or on a server.
+
+### API Endpoint
+- **URL**: `http://localhost:3000/chat/chat-animal`
+- **Method**: `POST`
+- **Request Body**:
+  ```json
+  {
+    "animal": "string", // Name of the animal (e.g., "Tiger")
+    "message": "string" // User's query or message
+  }
+  ```
+- **Response**:
+  - **Status Code**: `201`
+  - **Body**:
+    ```json
+    {
+      "message": "string" // AI-generated response
+    }
+    ```
+  - **Error Codes**:
+    - `400`: Missing or invalid input.
+    - `500`: Server or API key error.
+
+### Steps to Connect
+1. Update the API URL in the frontend code if the backend is hosted on a different server.
+2. Ensure the backend is running and accessible from the frontend.
+3. Test the integration by sending a query from the WildTalk page.
