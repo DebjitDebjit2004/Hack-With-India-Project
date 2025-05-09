@@ -1,3 +1,7 @@
+// Animal Controller
+// This controller handles the registration of animals and their images to IPFS
+
+
 const fs = require('fs');
 const path = require('path');
 const { registerAnimalToIpfs } = require('../services/animal.services');
